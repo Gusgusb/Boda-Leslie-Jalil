@@ -1410,7 +1410,7 @@
     <!-- Cuenta regresiva -->
     <script>
         // Set the date we're counting down to
-        var countDownDate = new Date("2024","01","20","17").getTime()
+        var countDownDate = new Date(fechaCuentaRegresiva).getTime()
 
         // Update the count down every 1 second
         var x = setInterval(function() {
@@ -1431,7 +1431,7 @@
             // document.getElementById("reloj").innerHTML = days + " días " + hours + "hs " +
             //   minutes + "m " + seconds + "s ";
 
-            $("#dias .number").text(days);
+            $("# .number").text(days);
             $("#horas .number").text(hours);
             $("#minutos .number").text(minutes);
             $("#segundos .number").text(seconds);
